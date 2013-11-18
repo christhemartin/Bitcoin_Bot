@@ -1,6 +1,8 @@
 import bitcoinrpc
 from bitcoinrpc.exceptions import InsufficientFunds
 
+print 'cool beans'
+
 conn = bitcoinrpc.connect_to_local()
 
 try:
